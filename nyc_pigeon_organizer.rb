@@ -1,6 +1,5 @@
 def nyc_pigeon_organizer(data)
 new_hash={}
-new_arr=[]
  data.each{|key_atr,value_atr| 
    value_atr.each{|key_param,value_param| 
      value_param.each{|i|
